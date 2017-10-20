@@ -172,21 +172,18 @@
 /* BG */
 
 	#bg {
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background:  url("images/bg.jpg");
 		height: 100%;
-		left: 0;
 		opacity: 1;
 		position: fixed;
 		top: 0;
 	}
 
 	
-
-
-	#bg {
+	/*#bg {
 		background-size: 2250px auto;
 		width: 6750px;
-	}
+	}*/
 
 
 /* Main */
