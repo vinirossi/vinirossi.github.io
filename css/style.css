@@ -1,63 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 
-*{
+* {
 	margin: 0 auto;
 }
 
-body{
+html, body {
 	background-image: url('images/bg.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 }
 
-header{
+.container {
 	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
 	color: #fff;
-	margin-top: 150px;
-}
-
-h1{
-	border: 1px solid #fff;
-	font-size: 80px;
-}
-
-.description{
-	font-size: 20px;
-	border: 1px solid #fff;
-}
-
-.social-media{
-	display: inline-flex;
-}
-
-.icons{
-	font-size: 40px;
-	list-style: none;
+	height: 90vh;
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bloco-redes-sociais {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+.icons {
+	font-size: 30px;
+	list-style: none;
 	border: 1px solid #fff;
 	margin: 20px;
 	padding: 20px;
 	border-radius: 100%;
-	width: 50px;
+	width: 40px;
+	text-align: center;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #fff;
 }
 
-footer{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-end;
-}
-
-.developer{
-	font-size: 20px;
+.developer {
+	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
-	border: 1px solid #fff;
+	text-align: center;
 }
