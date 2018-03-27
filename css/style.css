@@ -5,8 +5,7 @@
 }
 
 html, body {
-	background-image: url('images/bg.jpg');
-	background-size: cover;
+	background-color: rgba(1, 69, 79, 0.8);
 	height: 100%;
 	width: 100%;
 }
@@ -45,6 +44,7 @@ html, body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-left: 0;
 }
 
 h1, p {
@@ -90,3 +90,100 @@ a {
 	color: #fff;
 	text-align: center;
 }
+
+@media screen and (max-width: 480px){
+	
+	.title {
+		font-size: 64px;
+	}
+
+	.description {
+		font-size: 20px;
+		display: block;
+	}
+	
+	.bloco-redes-sociais {
+		margin-top: 40px;
+		padding: 0;
+	}
+
+	.icons {
+		width: 25px;
+		height: 25px;
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 390px){
+	
+	.title {
+		font-size: 54px;
+	}
+	
+	.description {
+		font-size: 17px;
+		display: block;
+	}
+
+	@keyframes upIn {
+	100%   {transform: translateY(0)}
+	0% {transform: translateY(50px)}
+}
+}
+
+@media screen and (max-width: 365px){
+
+	.title {
+		font-size: 50px;
+	}
+
+	.description {
+		font-size: 17px;
+		display: block;
+	}
+
+	.icons {
+		width: 20px;
+		height: 20px;
+		padding: 25px;
+	}
+
+	@keyframes upIn {
+	100%   {transform: translateY(0)}
+	0% {transform: translateY(30px)}
+}
+}	
+
+@media screen and (max-width: 350px){
+	
+	.title {
+		font-size: 48px;
+	}
+
+	.icons {
+		width: 15px;
+		height: 15px;
+		padding: 26px;
+	}
+
+	@keyframes upIn {
+	100%   {transform: translateY(0)}
+	0% {transform: translateY(30px)}
+}	
+
+@media screen and (min-width: 320px) and (max-width: 345px){
+
+	.title {
+		font-size: 44px;
+	}
+
+	.icons {
+		width: 10px;
+		height: 10px;
+		padding: 26px;
+	}
+
+	@keyframes upIn {
+	100%   {transform: translateY(0)}
+	0% {transform: translateY(30px)}
+}	
