@@ -92,6 +92,52 @@ a {
 	text-align: center;
 }
 
+@media screen and (max-width: 690px){
+	
+	.title {
+		font-size: 64px;
+	}
+
+	.description {
+		font-size: 20px;
+		display: block;
+	}
+	
+	.bloco-redes-sociais {
+		margin-top: 40px;
+		padding: 0;
+	}
+
+	.icons {
+		width: 25px;
+		height: 25px;
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 590px){
+	
+	.title {
+		font-size: 56px;
+	}
+
+	.description {
+		font-size: 18px;
+		display: block;
+	}
+	
+	.bloco-redes-sociais {
+		margin-top: 40px;
+		padding: 0;
+	}
+
+	.icons {
+		width: 25px;
+		height: 25px;
+		padding: 25px;
+	}
+}
+
 @media screen and (max-width: 480px){
 	
 	.title {
@@ -100,6 +146,29 @@ a {
 
 	.description {
 		font-size: 20px;
+		display: block;
+	}
+	
+	.bloco-redes-sociais {
+		margin-top: 40px;
+		padding: 0;
+	}
+
+	.icons {
+		width: 25px;
+		height: 25px;
+		padding: 25px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	
+	.title {
+		font-size: 50px;
+	}
+
+	.description {
+		font-size: 16px;
 		display: block;
 	}
 	
