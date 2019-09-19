@@ -1,29 +1,63 @@
-<!doctype html>
-<html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/style.css">
-		<title>Vinicius Rossi da Silva - Portfólio</title>
-	</head>
-	<body class="fadeIn">
-		<header class="container">
-			<div class="upIn">
-				<h1 class="title">Vinicius Rossi da Silva</h1>
-				<p class="description">Procurando oportunidade para ser um Desenvolvedor Front-end melhor na sua empresa &nbsp;&bull;&nbsp; Estudante de Sistemas para Internet &nbsp;&bull;&nbsp; Organizador do <a href="https://twitter.com/meetuphtmlsp" target="_blank">@meetuphtmlsp</a></p>
-			
-				<ul class="bloco-redes-sociais">
-					<a href="https://twitter.com/vinirossi9" target="_blank"><li class="icons"><img src="css/svg/icone-twitter.svg" alt="ícone-do-twitter"></li></a>
-					<a href="https://www.linkedin.com/in/vinirossi/" target="_blank"><li class="icons"><img src="css/svg/icone-linkedin.svg" alt="ícone-do-linkedin"></li></a>
-					<a href="https://medium.com/@vinirossi9" target="_blank"><li class="icons"><img src="css/svg/icone-medium.svg" alt="ícone-do-medium"></li></a>
-					<a href="https://github.com/vinirossi" target="_blank"><li class="icons"><img src="css/svg/icone-github.svg" alt="ícone-do-github"></li></a>
-					<a href="https://codepen.io/vinirossi/"><li class="icons"><img src="css/svg/icone-codepen.svg" alt="ícone-do-codepen"></li></a>
-				</ul>
-			</div>		
-		</header>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="teclas">
+        <div data-key="65" class="tecla">
+            <kbd>A</kbd>
+            <span class="som">clap</span>
+        </div>
+        <div data-key="83" class="tecla">
+            <kbd>S</kbd>
+            <span class="som">hihat</span>
+        </div>
+        <div data-key="68" class="tecla">
+            <kbd>D</kbd>
+            <span class="som">kick</span>
+        </div>
+        <div data-key="70" class="tecla">
+            <kbd>F</kbd>
+            <span class="som">openhat</span>
+        </div>
+        <div data-key="71" class="tecla">
+            <kbd>G</kbd>
+            <span class="som">boom</span>
+        </div>
+        <div data-key="72" class="tecla">
+            <kbd>H</kbd>
+            <span class="som">ride</span>
+        </div>
+        <div data-key="74" class="tecla">
+            <kbd>J</kbd>
+            <span class="som">snare</span>
+        </div>
+        <div data-key="75" class="tecla">
+            <kbd>K</kbd>
+            <span class="som">tom</span>
+        </div>
+        <div data-key="76" class="tecla">
+            <kbd>L</kbd>
+            <span class="som">tink</span>
+        </div>
 
-		<footer>
-			<p class="developer">&copy; Feito com amor por Vinicius Rossi da Silva</p>
-		</footer>
-	</body>
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
 </html>
